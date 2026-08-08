@@ -1,8 +1,2 @@
 streamlit
-openai
-python-dotenv
 easyocr
-Pillow
-pandas
-plotly
-opencv-python-headless
