@@ -1,2 +1,7 @@
 streamlit
-easyocr
+openai
+python-dotenv
+Pillow
+pandas
+plotly
+pytesseract
