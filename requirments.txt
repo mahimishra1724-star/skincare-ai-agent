@@ -1,4 +1,4 @@
-vstreamlit
+streamlit
 openai
 python-dotenv
 Pillow
