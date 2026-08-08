@@ -1,7 +1,10 @@
-import easyocr
+import pytesseract
+from PIL import Image
 
-reader = easyocr.Reader(['en'], gpu=False)
 
 def extract_text(image_path):
-    result = reader.readtext(image_path, detail=0, paragraph=True)
-    return " ".join(result)
+    image = Image.open(image_path)
+
+    text = pytesseract.image_to_string(image)
+
+    return text
