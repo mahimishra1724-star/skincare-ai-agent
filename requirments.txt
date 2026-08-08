@@ -1,9 +1,7 @@
 streamlit
 openai
 python-dotenv
-easyocr==1.7.2
+easyocr
 Pillow
 pandas
 plotly
-opencv-python-headless
-
